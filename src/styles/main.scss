@@ -1,0 +1,12 @@
+@import 'abstracts/variables';
+@import 'layout/app-layout';
+@import 'layout/app-header';
+@import 'pages/dashboard';
+
+body {
+  margin: 0;
+}
+
+h1,h2,h3,h4,p,span {
+  color: $text-dark;
+}

@@ -1,0 +1,10 @@
+app-dashboard {
+  display: block;
+  height: 100%;
+  main {
+    background-color: $light;
+    width: 100%;
+    display: flex;
+    flex: 1;
+  }
+}

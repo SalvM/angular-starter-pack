@@ -1,0 +1,40 @@
+app-header {
+  header {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: $primary;
+    min-height: 64px;
+    padding: 24px 2% 12px 2%;
+    h2, p {
+      margin: 0 auto;
+      text-align: left;
+      width: 100%;
+      color: $light;
+      font-size: 32px;
+    }
+    div.row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    #avatar-container {
+      background-color: white;
+      border-radius: 50%;
+      padding: 8px;
+      height: 32px;
+      width: 32px;
+      margin-left: 12px;
+      img {
+        height: 100%;
+        margin: 0 auto;
+      }
+    }
+    #subTitle-container {
+      margin-left: 8px;
+    }
+    button.clean {
+      color: #fff;
+    }
+  }
+}
